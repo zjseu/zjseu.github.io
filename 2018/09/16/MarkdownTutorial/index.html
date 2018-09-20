@@ -284,6 +284,9 @@ var _hmt = _hmt || [];
 		</ul>
 	</div>
 
+      <span id="busuanzi_container_page_pv">
+       | 阅读量(<span id="busuanzi_value_page_pv"></span>)
+      </span>
       
 
       
@@ -368,6 +371,11 @@ var _hmt = _hmt || [];
   
 
   
+    <section id="comments" class="comments">
+      <style>
+        .comments{margin:30px;padding:10px;background:#fff}
+        @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+      </style>
     <div id="comment"></div>
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
@@ -379,7 +387,6 @@ new Valine({
     appId: '2fcybNsTs8gJEovteiO3aazs-gzGzoHsz',
     appKey: 'rDICSlH0PnMcH9JqYBBmIiHX',
     placeholder: 'say something',
-    path:window.location.pathname, 
     avatar:'mm' 
 });
 </script>
